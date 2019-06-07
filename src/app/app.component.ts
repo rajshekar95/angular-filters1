@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ng6kmportal';
+  title = 'Project';
+  
+  private loggedIn: boolean=false;
+
+  constructor() { }
+
+  ngOnInit() {
+   
+  }
 }
